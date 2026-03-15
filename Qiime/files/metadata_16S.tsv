@@ -1,0 +1,14 @@
+sample-id	group	age	bmi	sex	diet	collection-site
+#q2:types	categorical	numeric	numeric	categorical	categorical	categorical
+SRR001_healthy1	healthy	32	22.4	M	Western	colon
+SRR002_healthy2	healthy	28	21.8	F	Mediterranean	colon
+SRR003_healthy3	healthy	45	23.1	M	Mediterranean	colon
+SRR004_healthy4	healthy	38	24.0	F	Western	colon
+SRR005_ibs1	ibs	34	26.5	F	Western	colon
+SRR006_ibs2	ibs	41	27.2	M	Western	colon
+SRR007_ibs3	ibs	29	25.8	F	Western	colon
+SRR008_ibs4	ibs	52	28.1	M	Mediterranean	colon
+SRR009_control1	control	36	23.9	M	Western	colon
+SRR010_control2	control	44	22.7	F	Mediterranean	colon
+SRR011_control3	control	31	24.5	M	Western	colon
+SRR012_control4	control	48	23.3	F	Mediterranean	colon

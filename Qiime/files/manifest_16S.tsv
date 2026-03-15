@@ -1,0 +1,13 @@
+sample-id	forward-absolute-filepath	reverse-absolute-filepath
+SRR001_healthy1	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR001_healthy1_S1_L001_R1_001.fastq.gz	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR001_healthy1_S1_L001_R2_001.fastq.gz
+SRR002_healthy2	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR002_healthy2_S2_L001_R1_001.fastq.gz	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR002_healthy2_S2_L001_R2_001.fastq.gz
+SRR003_healthy3	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR003_healthy3_S3_L001_R1_001.fastq.gz	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR003_healthy3_S3_L001_R2_001.fastq.gz
+SRR004_healthy4	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR004_healthy4_S4_L001_R1_001.fastq.gz	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR004_healthy4_S4_L001_R2_001.fastq.gz
+SRR005_ibs1	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR005_ibs1_S5_L001_R1_001.fastq.gz	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR005_ibs1_S5_L001_R2_001.fastq.gz
+SRR006_ibs2	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR006_ibs2_S6_L001_R1_001.fastq.gz	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR006_ibs2_S6_L001_R2_001.fastq.gz
+SRR007_ibs3	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR007_ibs3_S7_L001_R1_001.fastq.gz	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR007_ibs3_S7_L001_R2_001.fastq.gz
+SRR008_ibs4	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR008_ibs4_S8_L001_R1_001.fastq.gz	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR008_ibs4_S8_L001_R2_001.fastq.gz
+SRR009_control1	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR009_control1_S9_L001_R1_001.fastq.gz	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR009_control1_S9_L001_R2_001.fastq.gz
+SRR010_control2	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR010_control2_S10_L001_R1_001.fastq.gz	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR010_control2_S10_L001_R2_001.fastq.gz
+SRR011_control3	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR011_control3_S11_L001_R1_001.fastq.gz	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR011_control3_S11_L001_R2_001.fastq.gz
+SRR012_control4	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR012_control4_S12_L001_R1_001.fastq.gz	C:\Users\jimha\Desktop\Qiime\files\16S_sequences/SRR012_control4_S12_L001_R2_001.fastq.gz

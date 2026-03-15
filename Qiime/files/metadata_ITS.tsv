@@ -1,0 +1,10 @@
+sample-id	group	soil_type	ph	moisture_pct	site
+#q2:types	categorical	categorical	numeric	numeric	categorical
+ITS001_healthy1	healthy	clay	6.8	42.0	Field_A
+ITS002_healthy2	healthy	sandy_loam	6.5	38.0	Field_A
+ITS003_diseased1	diseased	clay	5.9	51.0	Field_B
+ITS004_diseased2	diseased	clay	5.7	55.0	Field_B
+ITS005_control1	control	sandy_loam	6.6	40.0	Field_C
+ITS006_control2	control	clay	6.7	41.0	Field_C
+ITS007_control3	control	sandy_loam	6.4	39.0	Field_C
+ITS008_control4	control	clay	6.9	43.0	Field_C
