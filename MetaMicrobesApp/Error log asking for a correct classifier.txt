@@ -1,0 +1,67 @@
+[System] PHASE 1: Starting QIIME 2 Execution...
+
+[Running Command 1/6] tools import...
+Imported /mnt/c/Users/jimha/Desktop/MetaMicrobesApp/Instrument files as CasavaOneEightSingleLanePerSampleDirFmt to /mnt/c/Users/jimha/Desktop/MetaMicrobesApp/Working Directory/demux.qza
+
+[Running Command 2/6] dada2 denoise-paired...
+Saved FeatureTable[Frequency] to: /mnt/c/Users/jimha/Desktop/MetaMicrobesApp/Working Directory/table.qza
+Saved FeatureData[Sequence] to: /mnt/c/Users/jimha/Desktop/MetaMicrobesApp/Working Directory/rep-seqs.qza
+Saved SampleData[DADA2Stats] to: /mnt/c/Users/jimha/Desktop/MetaMicrobesApp/Working Directory/stats.qza
+
+[Running Command 3/6] feature-classifier classify-sklearn...
+Usage: qiime feature-classifier classify-sklearn [OPTIONS]
+
+Classify reads by taxon using a fitted classifier.
+
+Inputs:
+--i-reads ARTIFACT FeatureData[Sequence]
+The feature data to be classified.         [required]
+--i-classifier ARTIFACT
+TaxonomicClassifier  The taxonomic classifier for classifying the reads.
+[required]
+Parameters:
+--p-reads-per-batch VALUE Int % Range(1, None) | Str % Choices('auto')
+Number of reads to process in each batch. If "auto",
+this parameter is autoscaled to min( number of query
+sequences / n-jobs, 20000).         [default: 'auto']
+--p-n-jobs NTHREADS    The maximum number of concurrent worker processes.
+If -1 all CPUs are used. If 1 is given, no parallel
+computing code is used at all, which is useful for
+debugging. For n-jobs below -1, (n_cpus + 1 + n-jobs)
+are used. Thus for n-jobs = -2, all CPUs but one are
+used.                                    [default: 1]
+--p-pre-dispatch TEXT  "all" or expression, as in "3*n_jobs". The number of
+batches (of tasks) to be pre-dispatched.
+[default: '2*n_jobs']
+--p-confidence VALUE Float % Range(0, 1, inclusive_end=True) | Str %
+Choices('disable')   Confidence threshold for limiting taxonomic depth.
+Set to "disable" to disable confidence calculation,
+or 0 to calculate confidence but not apply it to
+limit the taxonomic depth of the assignments.
+[default: 0.7]
+--p-read-orientation TEXT Choices('same', 'reverse-complement', 'auto')
+Direction of reads with respect to reference
+sequences. same will cause reads to be classified
+unchanged; reverse-complement will cause reads to be
+reversed and complemented prior to classification.
+"auto" will autodetect orientation based on the
+confidence estimates for the first 100 reads.
+[default: 'auto']
+Outputs:
+--o-classification ARTIFACT FeatureData[Taxonomy]
+[required]
+Miscellaneous:
+--output-dir PATH      Output unspecified results to a directory
+--verbose / --quiet    Display verbose output to stdout and/or stderr
+during execution of this action. Or silence output if
+execution is successful (silence is golden).
+--example-data PATH    Write example data and exit.
+--citations            Show citations and exit.
+--help                 Show this message and exit.
+
+There was a problem with the command:
+(1/1) Invalid value for '--i-classifier': Expected an artifact of at least
+type TaxonomicClassifier. An artifact of type FeatureData[Sequence] was
+provided.
+
+[FATAL ERROR] QIIME 2 Process 3 failed with exit code 1
